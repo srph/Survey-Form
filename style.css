@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #a9d7d1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', Helvetica, sans-serif;
+  }
+  
+  .wrapper {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .form-group > .label {
+    text-align: right;
+    width: 50%;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group > .input {
+    width: 50%;
+  }
+
+  /* Flex Container */
+  .form-group {
+    width: 1024px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Flex Items */
+  .label-items {
+    margin-bottom: 16px;
+    height: 40px;
+
+    /* Ask Kier if this is correct way to vectically center the label-items */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; */
+  }
+
+  /* Flex Items */
+  .input-items {
+    margin-bottom: 16px;
+    height: 40px;
+  }
+
+  /* #name, #email, #number {
+    width: 60%;
+    padding: 6px;
+  } */
+
+  .dropdown {
+    width: 140px;
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+
+  .radio-items {
+    padding-bottom: 10px;
+  }
+
+  .userRatings {
+    float: left;
+    margin-right: 5px;
+  }
+
+  .max-height {
+    height: 80px !important;
+  }
+
+  .max-height2 {
+    height: 200px !important;
+  }
+
+  .max-heightLabel {
+    height: 300px !important;
+  }
+
+  #name, #email, #number, #comments {
+    width: 280px;
+    padding: 6px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+
+  #comments {
+    float: left;
+    position: relative;
+    top: 115px;
+    left: -18px;
+    display: inline-block;
+  }
+
+  .submit {
+    margin: 0 auto;
+  }
+
+  #submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+  }

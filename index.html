@@ -8,93 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <h1 id="description">Survey Form</h1>
-
+    <div class="paper-box">
+        <div class="description">
+            <h1 id="descriptions">Survey Form</h1>
+        </div>
         <div class="form-group">
-            <div class="label">
-                <div class="label-items">
+            <div class="rowTab">
+                <div class="labels">
                     <label id="name-label" for="name">* Name: </label>
                 </div>
-                <div class="label-items">
-                    <label id="email-label" for="name">* Email: </label>
-                </div>
-                <div class="label-items">
-                    <label id="number-label" for="number">* Age: </label>
-                </div>
-                <div class="label-items">
-                    <label for="currentPos">Which option best describes your current role?</label>
-                </div>
-                <div class="label-items max-height">
-                    <label for="userRating">* How likely is that you would recommend<br> freeCodeCamp to a friend?</label>
-                </div>
-                <div class="label-items">
-                    <label for="currentPos">Which option best describes your current role?</label>
-                </div>
-                <div class="label-items max-heightLabel">
-                    <label for="preferences">Things that should be improved in the future<br>(Check all that apply): </label>
-                </div>
-                <div class="label-items">
-                    <label for="currentPos">Which option best describes your current role?</label>
-                </div>
-            </div>
-            <div class="input">
-                <div class="input-items">
+                <div class="inputs">
                     <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
                 </div>
-                <div class="input-items">
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="email-label" for="email">* Email: </label>
+                </div>
+                <div class="inputs">
                     <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
                 </div>
-                <div class="input-items">
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="number-label" for="age">* Age: </label>
+                </div>
+                <div class="inputs">
                     <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
                 </div>
-                <div class="input-items">
-                    <select id="dropdown" name="currentPos" class="dropdown">
-                        <option disabled value>Select an option</option>
-                        <option  value="student">Student</option>
-                        <option value="job">Full Time Job</option>
-                        <option value="learner">Full Time Learner</option>
-                        <option value="preferNo">Prefer not to say</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="input-items max-height">
-                    <div class="radio-items">Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings"></div>
-                    <div class="radio-items">Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings"></div>
-                    <div class="radio-items">Not Sure<input name="radio-buttons" value="3"  type="radio" class="userRatings"></div>
-                </div>
-                <div class="input-items">
-                    <select id="most-like" name="mostLike" class="dropdown">
-                        <option disabled selected value>Select an option</option>
-                        <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
-                        <option value="community">Community</option>
-                        <option value="openSource">Open Source</option>
-                    </select>
-                </div>
-                <div class="input-items">
-                    <div class="input-items max-height2">
-                        <div class="radio-items">Front-end Projects<input name="radio-buttons" value="1"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Back-end Projects<input name="radio-buttons" value="2"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Data Visualization<input name="radio-buttons" value="3"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Challenges<input name="radio-buttons" value="4"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Open Source Community<input name="radio-buttons" value="5"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Gitter help rooms<input name="radio-buttons" value="6"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Videos<input name="radio-buttons" value="7"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">City Meetups<input name="radio-buttons" value="8"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Wiki<input name="radio-buttons" value="9"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Forums<input name="radio-buttons" value="10"  type="checkbox" class="userRatings"></div>
-                        <div class="radio-items">Additional Courses<input name="radio-buttons" value="10"  type="checkbox" class="userRatings"></div>
-                    </div>
-                </div>
-                <div class="input-items">
-                    <div class="text-input">
-                        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="submit">
-                <button id="submit" type="submit">Submit</button>
             </div>
         </div>
     </div>
